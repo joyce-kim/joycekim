@@ -1,0 +1,53 @@
+[
+  {
+    "id": "1",
+    "name": "Carnegie Mellon University",
+    "title": "B.S. Decision Science",
+    "subtitle": "Minor in Business Administration & Photography",
+    "startDate": "Aug 2012",
+    "endDate": "Dec 2016",
+    "experiences": ["15-110: Principles of Computing", "15-112: Fundamentals of Programming", "15-121: Introduction to Data Structures", "70-196: Publishing on the World Wide Web"],
+    "skills": ["Ruby", "Python", "Java", "HTML", "CSS", "JavaScript"],
+    "location": [40.442808, -79.943013]
+  },
+  {
+    "id": "2",
+    "name": "The George Washington University",
+    "title": "Certified Full-Stack Web Developer",
+    "startDate": "Jul 2017",
+    "endDate": "Feb 2018",
+    "experiences": ["Built frontend websites from scratch and by utilizing frameworks", "deployed sites to the cloud", "implemented CRUD commands in SQL", "created full-stack applications with AJAX", "used authentication schemes to create session-based apps"],
+    "skills": ["React.js", "Express", "Node.js", "MongoDB", "MySQL","Bootstrap","jQuery"],
+    "location": [38.8813719, -77.11591279999999]
+  },
+  {
+    "id": "3",
+    "name": "Fino Consulting",
+    "title": "Data Scientist Intern",
+    "startDate": "Jun 2014",
+    "endDate": "Aug 2014",
+    "experiences": ["Built data visuals with JavaScript and D3.js", "Rendered wireframes using HTML, JavaScript, and CSS", "Completed a software product within an Agile framework that met the needs of my client and the market. (4) Worked as a member of a cross-functional team, including developers, a product owner, and UX designers"],
+    "skills": ["D3.js", "Agile Development", "Wireframing", "Git"],
+    "location": [40.7506426, -73.9845181]
+  },
+  {
+    "id": "4",
+    "name": "Intersections Inc.",
+    "title": "Digital Marketing Intern",
+    "startDate": "Jun 2015",
+    "endDate": "Aug 2015",
+    "experiences": ["Created and optimized a $50,000 display campaign using Apple iAd Workbench", "Managed other display campaigns by directly meeting and corresponding with partners at Google, Yahoo and AOL. (3) Re-branded a failing product and generated creatives for its re-launch", "Published and edited content for the company and its products using WordPress"],
+    "skills": ["Google Adwords", "Yahoo Gemini", "Apple iAd", "Excel"],
+    "location": [38.90853610000001, -77.4568529]
+  },
+  {
+    "id": "5",
+    "name": "Mylan Pharmaceuticals",
+    "title": "Global Digital and Integrated Marketing Intern",
+    "startDate": "May 2016",
+    "endDate": "Aug 2016",
+    "experiences": ["Analyzed the Twitter and Facebook social strategies of 5 competitors using Excel and data scrapers", "Compiled recommendations using the analysis from the social media research", "Led a team of 4 in researching technology’s impact on doctor/patient relations and patient behavior"],
+    "skills": ["Webscraping", "Market Analysis"],
+    "location": [40.2725855, -80.16376679999996]
+  }
+]

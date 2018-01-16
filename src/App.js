@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Background from "./pages/Background";
+import Project_one from "./pages/Project_one";
+import Project_two from "./pages/Project_two";
+import Project_three from "./pages/Project_three";
+import Contact from "./pages/Contact";
+
+import * as Scroll from "react-scroll";
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+
 import './App.css';
-import Home from "./pages/home";
-import Contact from "./pages/contact";
 
 class App extends Component {
   render() {
@@ -10,6 +18,10 @@ class App extends Component {
       <Router>
         <div>
           <Home />
+          <Background />
+          <Project_one />
+          <Project_two />
+          <Project_three />
           <Contact />
         </div>
       </Router>

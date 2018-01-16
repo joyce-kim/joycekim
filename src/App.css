@@ -1,41 +1,118 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color: #999999;
+}
+
+.fullscreen {
+  height: 100%;
+/*  border: 3px blue solid;*/
+}
+
+body > #root > div {
+  height: 100vh;
 }
 
 h1 {
   text-align: center;
   font-size: 80px;
-  color: grey;
-  /*font-family: 'Bellefair', serif;*/
-  /*font-family: 'Poiret One', cursive;*/
-  /*font-family: 'Nixie One', cursive;*/
+  color: #6b6b6b;
   font-family: 'Pompiere', cursive;
 }
 
 h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #6b6b6b;
+  /*font-family: 'Pompiere', cursive;*/
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 200;
+  color: #6b6b6b;
+  /*font-family: 'Pompiere', cursive;*/
 }
 
 h4 {
   text-align: center;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+h5 {
+  font-weight: 200;
   font-size: 15px;
-  color: grey;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 14px;
 }
 
 a:link {
-  color: grey;
+  font-weight: 200;
   text-decoration: none;
+  color: #999999;
+
 }
 
 a:hover {
+  font-weight: 600;
   font-size: 17px;
-  color: grey;
-  font-weight: bolder;
   text-decoration: none;
+  color: #999999;
 }
 
 a:visited {
-  color: grey;
+  font-weight: 200;
   text-decoration: none;
+  color: #999999;
+}
+
+/* ------ home page ------ */
+.logoDiv {
+  margin-top: 30vh;
+}
+
+/* ------ background page ------ */
+.mapDiv {
+  height: 80vh;
+  border: grey 3px solid;
+  padding: 0;
+  margin-left: 5vh;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.panelDiv {
+  height: 80vh;
+  vertical-align: middle;
+  margin-bottom: 5vh;
+  margin-top: 10vh;
+}
+
+.panelDiv h3 {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.panelDiv h4 {
+  /*text-align: center;*/
+  /*margin-top: 20px;*/
+}
+
+.panelDiv li {
+  font-size: 15px;
+}
+
+/* ------ projects page ------ */
+.center_div {
+  height: 80vh;
+  margin-top: 5vh;
+}
+
+/* ------ contact page ------ */
+.contactDiv {
+  margin-top: 30vh;
 }
