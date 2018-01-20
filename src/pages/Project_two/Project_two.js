@@ -5,28 +5,11 @@ import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy,
 
 class Project_two extends Component {
 
-	scrollTo(page) {
-		console.log(page);
-	    scroller.scrollTo(page, {
-	      duration: 600,
-	      delay: 0,
-	      smooth: 'easeInOutQuart'
-	    })
-	}
-
 	render() {
 
 		return (
 			<Container fluid className="fullscreen" >
-				<Element name="scroll-to-projtwo" className="element"></Element>
-				<Row onWheel={ event => {
-					if (event.nativeEvent.wheelDelta > 80) {
-						console.log(event.nativeEvent.wheelDelta);
-						this.scrollTo('scroll-to-projone');
-					} else if (event.nativeEvent.wheelDelta < -80) { 
-						console.log(event.nativeEvent.wheelDelta);
-						this.scrollTo("scroll-to-projthree"); }
-					}} >
+				<Row>
 					<Col md={{size: 6, offset: 3}} className="center_div" style={{border: 'grey 3px solid'}}>
 						<h2>this is project two</h2>
 						<p>information about project two</p>

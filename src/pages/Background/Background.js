@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col } from 'reactstrap';
 import MyMap from "../../components/Map";
 import Experience_panel from "../../components/Experience_panel";
+import About_panel from "../../components/About_panel";
 import experiences from "./experiences.json";
 
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
@@ -19,28 +20,11 @@ class Background extends Component {
 		this.setState({ isMarkerClicked: true });
 	};
 
-	scrollTo = page => {
-		console.log(page);
-	    scroller.scrollTo(page, {
-	      duration: 600,
-	      delay: 0,
-	      smooth: 'easeInOutQuart'
-	    })
-	}
-
 	render() {
 
 		return (
 			<Container fluid className="fullscreen">
-			<Element name="scroll-to-background" className="element"></Element>
-				<Row onWheel={ event => {
-					if (event.nativeEvent.wheelDelta > 80) {
-						console.log(event.nativeEvent.wheelDelta);
-						this.scrollTo('scroll-to-home');
-					} else if (event.nativeEvent.wheelDelta < -80) { 
-						console.log(event.nativeEvent.wheelDelta);
-						this.scrollTo("scroll-to-projone"); }
-					}} >
+				<Row>
 					<Col md={{size: 5}} className="mapDiv">
 						<MyMap
 							showMarkerInfo={this.showMarkerInfo}
@@ -51,7 +35,7 @@ class Background extends Component {
 							mapElement={ <div style={{height:100+"%"}} />} />
 					</Col>
 					<Col md={{size: 6}} className="panelDiv">
-						{this.state.isMarkerClicked ? <Experience_panel data={this.state.filteredExp[0]} /> : <h1>lets party</h1>}}
+						{this.state.isMarkerClicked ? <Experience_panel data={this.state.filteredExp[0]}/> : <About_panel />}
 					</Col>
 				</Row>
 			</Container>

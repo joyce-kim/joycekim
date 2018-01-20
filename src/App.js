@@ -7,9 +7,6 @@ import Project_two from "./pages/Project_two";
 import Project_three from "./pages/Project_three";
 import Contact from "./pages/Contact";
 
-import * as Scroll from "react-scroll";
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-
 import './App.css';
 
 class App extends Component {
@@ -19,9 +16,6 @@ class App extends Component {
         <div>
           <Home />
           <Background />
-          <Project_one />
-          <Project_two />
-          <Project_three />
           <Contact />
         </div>
       </Router>

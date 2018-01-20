@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #999999;
 }
 
@@ -13,42 +13,11 @@ body > #root > div {
 }
 
 h1 {
-  text-align: center;
   font-size: 80px;
   color: #6b6b6b;
   font-family: 'Pompiere', cursive;
 }
 
-h2 {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 300;
-  color: #6b6b6b;
-  /*font-family: 'Pompiere', cursive;*/
-}
-
-h3 {
-  font-size: 20px;
-  font-weight: 200;
-  color: #6b6b6b;
-  /*font-family: 'Pompiere', cursive;*/
-}
-
-h4 {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 200;
-}
-
-h5 {
-  font-weight: 200;
-  font-size: 15px;
-  margin-top: 40px;
-}
-
-p {
-  font-size: 14px;
-}
 
 a:link {
   font-weight: 200;
@@ -73,9 +42,94 @@ a:visited {
 /* ------ home page ------ */
 .logoDiv {
   margin-top: 30vh;
+  text-align: center;
 }
 
-/* ------ background page ------ */
+#page_home {
+  background-color: #F5F5F5;
+}
+
+#page_contact {
+  background-color: #F5F5F5;
+}
+
+/* ------ background page: background panel ------ */
+.panelDiv {
+  height: 80vh;
+  vertical-align: middle;
+  margin-bottom: 5vh;
+  margin-top: 8vh;
+}
+
+.panelDiv h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #999999;
+}
+
+.panelDiv h3 {
+  margin-top: 6px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #6b6b6b;
+}
+
+.panelDiv h4 {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.panelDiv h5 {
+  font-weight: 200;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.panelDiv li {
+  font-size: 15px;
+}
+
+/* ------ background page: about panel ------ */
+.aboutDiv .item {
+  margin-bottom: 30px;
+}
+.aboutDiv h2 {
+/*  font-size: 20px;
+  font-weight: 500;*/
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+.aboutDiv h3 {
+/*  font-size: 17px;
+  font-weight: 300;*/
+  margin: 0;
+}
+
+.aboutDiv h4 {
+/*  font-size: 15px;
+  font-weight: 300;*/
+  margin: 0;
+}
+
+.aboutDiv h5 {
+/*  font-size: 13px;*/
+  margin: 0;
+}
+
+.aboutDiv h6 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #828282;
+}
+
+.aboutDiv li {
+/*  font-size: 14px;*/
+  margin: 0;
+}
+
+/* ------ background page: map ------ */
+
 .mapDiv {
   height: 80vh;
   border: grey 3px solid;
@@ -85,27 +139,6 @@ a:visited {
   margin-top: 5vh;
 }
 
-.panelDiv {
-  height: 80vh;
-  vertical-align: middle;
-  margin-bottom: 5vh;
-  margin-top: 10vh;
-}
-
-.panelDiv h3 {
-  text-align: center;
-  margin-top: 12px;
-}
-
-.panelDiv h4 {
-  /*text-align: center;*/
-  /*margin-top: 20px;*/
-}
-
-.panelDiv li {
-  font-size: 15px;
-}
-
 /* ------ projects page ------ */
 .center_div {
   height: 80vh;
@@ -113,6 +146,11 @@ a:visited {
 }
 
 /* ------ contact page ------ */
+#page_contact {
+  text-align: center;
+}
+
 .contactDiv {
+  text-align: center;
   margin-top: 30vh;
 }
