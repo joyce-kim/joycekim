@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 
 const ExperiencePanel = props => (
 	<Col md={{size: 12}}>
@@ -11,6 +11,7 @@ const ExperiencePanel = props => (
 		<ul>{props.data.experiences.map( (experience) => <li>{experience}</li>) }</ul>
 		<h5>Skills:</h5>
 		<ul>{props.data.skills.map( (skill) => <li>{skill}</li>) }</ul>
+		<Button outline color="secondary" onClick={() => props.onClick()} >Back</Button>{''}
 	</Col>
 );
 

@@ -20,6 +20,10 @@ class Background extends Component {
 		this.setState({ isMarkerClicked: true });
 	};
 
+	handleBtnClick = () => {
+		this.setState({ isMarkerClicked: false });
+	}
+
 	render() {
 
 		return (
@@ -35,7 +39,7 @@ class Background extends Component {
 							mapElement={ <div style={{height:100+"%"}} />} />
 					</Col>
 					<Col md={{size: 6}} className="panelDiv">
-						{this.state.isMarkerClicked ? <Experience_panel data={this.state.filteredExp[0]}/> : <About_panel />}
+						{this.state.isMarkerClicked ? <Experience_panel data={this.state.filteredExp[0]} onClick={this.handleBtnClick} /> : <About_panel />}
 					</Col>
 				</Row>
 			</Container>
