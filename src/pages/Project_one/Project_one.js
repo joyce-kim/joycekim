@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from 'reactstrap';
+import './projectone.css';
 
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+
 
 class Project_one extends Component {
 

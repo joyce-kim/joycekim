@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from "react-router-dom";
+import './contact.css';
 
 import { DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 

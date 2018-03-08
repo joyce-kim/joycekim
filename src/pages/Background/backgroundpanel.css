@@ -1,0 +1,42 @@
+/* ------ background page: background panel ------ */
+.panelDiv {
+  height: 80vh;
+  vertical-align: middle;
+  margin-bottom: 5vh;
+  margin-top: 8vh;
+}
+
+.panelDiv h2 {
+  /*font-size: 18px;*/
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #999999;
+}
+
+.panelDiv h3 {
+  /*margin-top: 6px;*/
+  margin-top: 0.5em;
+  /*font-size: 30px;*/
+  font-size: 2.5em;
+  font-weight: 300;
+  color: #6b6b6b;
+}
+
+.panelDiv h4 {
+  /*font-size: 16px;*/
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.panelDiv h5 {
+  font-weight: 200;
+  /*font-size: 15px;*/
+  font-size: 1.5em;
+  /*margin-top: 40px;*/
+  margin-top: 3em;
+}
+
+.panelDiv li {
+  /*font-size: 15px;*/
+  font-size: 1.5em;
+}

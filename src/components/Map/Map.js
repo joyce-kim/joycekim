@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { withGoogleMap, GoogleMap, Marker } from "react-google-maps";
 import mapStyles from "./mapStyles.json";
 import MarkerComponent from "./Marker.js";
+import './map.css';
 
 class MyMap extends Component {
 

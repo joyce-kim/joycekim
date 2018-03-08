@@ -1,0 +1,29 @@
+/* ------ contact page ------ */
+#page_contact {
+  text-align: center;
+}
+
+.contactDiv {
+  text-align: center;
+  margin-top: 30vh;
+}
+
+a:link {
+  font-weight: 200;
+  text-decoration: none;
+  color: #999999;
+
+}
+
+a:hover {
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  color: #999999;
+}
+
+a:visited {
+  font-weight: 200;
+  text-decoration: none;
+  color: #999999;
+}

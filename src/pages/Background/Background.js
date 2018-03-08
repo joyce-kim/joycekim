@@ -4,6 +4,7 @@ import MyMap from "../../components/Map";
 import Experience_panel from "../../components/Experience_panel";
 import About_panel from "../../components/About_panel";
 import experiences from "./experiences.json";
+import './backgroundpanel.css';
 
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 

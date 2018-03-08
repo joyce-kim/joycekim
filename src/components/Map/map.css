@@ -1,0 +1,10 @@
+/* ------ background page: map ------ */
+
+.mapDiv {
+  height: 80vh;
+  border: grey 3px solid;
+  padding: 0;
+  margin-left: 5vh;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
