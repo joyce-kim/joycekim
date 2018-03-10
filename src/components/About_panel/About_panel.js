@@ -18,7 +18,7 @@ const AboutPanel = props => (
 		</div>
 		<div className="item">
 			<h2>Skills:</h2>
-			<Col md={{size: 4}}>
+			<Col md={{size: 4}} className='itemList'>
 				<h5>Browser Based Technologies</h5>
 				<ul>
 					<li>HTML/CSS</li>
@@ -31,7 +31,7 @@ const AboutPanel = props => (
 					<li>Cookies, Local Storage</li>
 				</ul>
 			</Col>
-			<Col md={{size: 4}}>
+			<Col md={{size: 4}} className='itemList'>
 				<h5>Databases</h5>
 				<ul>
 					<li>MongoDB</li>
@@ -43,7 +43,7 @@ const AboutPanel = props => (
 					<li>MERN Stack</li>
 				</ul>
 			</Col>
-			<Col md={{size: 4}}>
+			<Col md={{size: 4}} className='itemList'>
 				<h5>Adobe Suite</h5>
 				<ul>
 					<li>Photoshop</li>

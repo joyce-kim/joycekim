@@ -4,8 +4,7 @@ body {
 }
 
 .fullscreen {
-  height: 100%;
-/*  border: 3px blue solid;*/
+  min-height: 100%;
 }
 
 body > #root > div {
@@ -13,9 +12,41 @@ body > #root > div {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 8em;
   color: #6b6b6b;
   font-family: 'Pompiere', cursive;
 }
 
+.pageheading {
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  margin-top: 1vh;
+  text-align: center;
+  font-size: 8em;
+}
 
+.pagesubheading {
+  margin: 0 auto;
+  margin-bottom: 8vh;
+  text-align: center;
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	.pageheading {
+		text-align: right;
+	}
+	.pagesubheading {
+		text-align: right;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.pageheading {
+		text-align: right;
+	}
+	.pagesubheading {
+		text-align: right;
+	}
+}

@@ -1,10 +1,44 @@
 /* ------ background page: map ------ */
 
 .mapDiv {
-  height: 80vh;
+  height: 20vh;
   border: grey 3px solid;
   padding: 0;
-  margin-left: 5vh;
-  margin-bottom: 5vh;
-  margin-top: 5vh;
+  margin: 0 auto;
+}
+
+/*small devices*/
+@media (min-width: 576px) { 
+  .mapDiv {
+    max-width: 86%;
+  }
+}
+
+/*medium devices*/
+@media (min-width: 768px) {
+	.mapDiv {
+		max-width: 86%;
+	}
+}
+
+/*large devices*/
+@media (min-width: 992px) {
+	.mapDiv {
+	    height: 80vh;
+		margin-left: 5vh;
+		margin-bottom: 5vh;
+		margin-top: 5vh;
+		margin-right: 0;
+	}
+}
+
+/*xlarge devices*/
+@media (min-width: 1200px) {
+	.mapDiv {
+	    height: 80vh;
+		margin-left: 5vh;
+		margin-bottom: 5vh;
+		margin-top: 5vh;
+		margin-right: 0;
+	}
 }

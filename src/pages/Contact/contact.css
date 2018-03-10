@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.contactDiv {
+.pageheader {
   text-align: center;
   margin-top: 30vh;
 }
@@ -26,4 +26,18 @@ a:visited {
   font-weight: 200;
   text-decoration: none;
   color: #999999;
+}
+
+span {
+  font-weight: 200;
+  text-decoration: none;
+  color: #999999;
+}
+
+span:hover {
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  color: #999999;
+  cursor: pointer;
 }

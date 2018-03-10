@@ -2,6 +2,7 @@
 .aboutDiv .item {
   margin-bottom: 30px;
 }
+
 .aboutDiv h2 {
 /*  font-size: 20px;
   font-weight: 500;*/
@@ -35,4 +36,8 @@
 .aboutDiv li {
 /*  font-size: 14px;*/
   margin: 0;
+}
+
+.itemList {
+  display: inline-block;
 }

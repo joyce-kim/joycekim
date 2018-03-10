@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Button } from 'reactstrap';
+import './experiencepanel.css';
 
 const ExperiencePanel = props => (
 	<Col md={{size: 12}}>

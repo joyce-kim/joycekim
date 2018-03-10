@@ -1,9 +1,13 @@
-/* ------ background page: background panel ------ */
+/* ------ background page: experience panel ------ */
 .panelDiv {
   height: 80vh;
   vertical-align: middle;
   margin-bottom: 5vh;
   margin-top: 8vh;
+}
+
+.panelDiv h1 {
+  margin: 0 auto;
 }
 
 .panelDiv h2 {
@@ -40,3 +44,4 @@
   /*font-size: 15px;*/
   font-size: 1.5em;
 }
+
