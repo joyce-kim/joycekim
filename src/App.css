@@ -48,5 +48,6 @@ h1 {
 	}
 	.pagesubheading {
 		text-align: right;
+    margin-bottom: 0;
 	}
 }

@@ -4,6 +4,7 @@
   vertical-align: middle;
   margin-bottom: 5vh;
   margin-top: 8vh;
+  overflow: auto;
 }
 
 .panelDiv h1 {
