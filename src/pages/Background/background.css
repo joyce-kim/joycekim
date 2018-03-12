@@ -1,3 +1,33 @@
 /* ------ background page ------ */
 #page_background {
+  height: 170%;
+}
+
+@media (min-width: 400px) { 
+  #page_background {
+    height: 130%;
+  }
+
+}
+
+@media (min-width: 768px) { 
+  #page_background {
+    height: 110%;
+  }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+  #page_background {
+    height: 100%;
+  }
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .page_background {
+    height: 100%;
+  }
 }

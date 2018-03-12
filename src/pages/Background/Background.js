@@ -28,7 +28,7 @@ class Background extends Component {
 	render() {
 
 		return (
-			<Container fluid id='page_background' className="fullscreen">
+			<Container fluid id='page_background' className="">
 				<Row>
 					<Col md={{size: 12}}>
 						<h1 className='pageheading'>experience</h1>
@@ -51,6 +51,7 @@ class Background extends Component {
 					</Col>
 				</Row>
 			</Container>
+
 		);
 	};
 };
