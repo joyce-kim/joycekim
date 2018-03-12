@@ -1,9 +1,9 @@
 /* ------ background page ------ */
 #page_background {
-  height: 170%;
+  height: 180%;
 }
 
-@media (min-width: 400px) { 
+@media (min-width: 576px) { 
   #page_background {
     height: 130%;
   }
