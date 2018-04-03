@@ -26,9 +26,7 @@ const AboutPanel = props => (
 					<li>React.js</li>
 					<li>jQuery</li>
 					<li>Bootstrap</li>
-					<li>Handlebars</li>
 					<li>Firebase</li>
-					<li>Cookies, Local Storage</li>
 				</ul>
 			</Col>
 			<Col md={{size: 4}} className='itemList'>

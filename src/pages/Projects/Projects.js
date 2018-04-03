@@ -23,6 +23,12 @@ class Project_two extends Component {
 							<p>A deployed React app that utilizes Bootstrap and Google Maps packages.</p>
 						</div>
 						<div className="project">	
+							<a href="https://github.com/joyce-kim/which-language">
+								<h3>Which Language Quiz</h3>
+							</a>
+							<p>A questionnaire that utilizes React routing to show what programming language you should learn.</p>
+						</div>
+						<div className="project">	
 							<a href="https://github.com/joyce-kim/FindChildCare">
 								<h3>Find Child Care</h3>
 							</a>
